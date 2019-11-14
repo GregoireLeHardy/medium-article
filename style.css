@@ -39,9 +39,8 @@ a {
   }
 
 .lien-special {
-  margin: 50px auto;
   text-align: center;
-  vertical-align: middle;
+  font-size: 30px;
 }
 
 .container {
