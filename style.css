@@ -39,7 +39,8 @@ a {
   }
 
 .lien-special {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-size: 30px;
 }
 
@@ -51,6 +52,7 @@ a {
 .lien-special:hover {
   background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
 }
+
 
 @media(max-width: 992px) {
   .container {
