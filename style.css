@@ -38,6 +38,20 @@ a {
   opacity: 0.8;
   }
 
+.bouton-bleu {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #e6ffff;
+    background-color: #003366;
+    padding: 15px 20px;
+    border-radius: 40px;
+    border-spacing: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+}
+
 .lien-special {
   display: flex;
   justify-content: center;
@@ -52,7 +66,6 @@ a {
 .lien-special:hover {
   background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));}
 }
-
 
 @media(max-width: 992px) {
   .container {
